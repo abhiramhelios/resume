@@ -36,9 +36,7 @@
     "vite": "^6.0.5"
   }
 
-  "scripts": {
-  "dev": "vite",
-  "build": "vite build",  // <--- Add "vite build" here
-  "preview": "vite preview"
-},
+  
+  
+
 }
