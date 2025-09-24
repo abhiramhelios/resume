@@ -43,7 +43,7 @@ import photoshop from './assets/tech_logo/photoshop.png';
 
 import trello from './assets/tech_logo/trello.png';
 import slack from './assets/tech_logo/slack.png';
-import jira from './assets/tech_logo/jira.png';
+// import jira from './assets/tech_logo/jira.png';
 // import googleworkspace from './assets/tech_logo/workspace.jpg';
 import asana from './assets/tech_logo/asana.png';
 
@@ -160,7 +160,7 @@ export const SkillsInfo = [
     skills: [ 
       { name: 'Trello',logo: trello },
      { name: 'Slack',logo: slack },
-      { name: 'Jira', logo: jira },
+     // { name: 'Jira', logo: jira },
     // { name: 'Google workspace', logo: workspace },
       { name: 'Asana', logo: asana }, 
     ],
