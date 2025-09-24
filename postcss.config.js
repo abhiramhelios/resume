@@ -4,3 +4,9 @@ export default {
     autoprefixer: {},
   },
 }
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
