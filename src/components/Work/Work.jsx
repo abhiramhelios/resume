@@ -22,10 +22,28 @@ const Work = () => {
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A showcase of the projects I have worked on, highlighting my skills
-          and experience in various technologies
+          Here are some of my projects!
         </p>
       </div>
+
+      {/* Resume Button */}
+        <div className="flex justify-center mt-5">
+  <a
+    href="https://drive.google.com/drive/folders/1zZ7cMrfQ926zTZuT5GNGm_SbYibt6UYk?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105"
+    style={{
+      background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+      boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+    }}
+  >
+    CLICK HERE!
+  </a>
+</div>
+
+
+
 
       {/* Projects Grid */}
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
